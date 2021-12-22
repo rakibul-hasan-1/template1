@@ -46,13 +46,26 @@ body{
 }
 .nav-item>input{
     border:none;
-    border-bottom:1px solid;
+    border-bottom:1px solid #1c87c9;
 }
+.button:focus {
+    outline: none !important;
+  }
 .nav-item .button img{
  width:28px;
  position:relative;
  right:27px;
 }
+input {
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+  }
+  input:focus,
+  input:active {
+    border-color: transparent;
+    border-bottom: 1px solid #1c87c9;
+  }
 
 .nav-item:hover{
     background: rgb(2,0,36);
