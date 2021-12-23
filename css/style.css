@@ -88,3 +88,6 @@ input {
 .navbar-toogle-icon{
     width:35px;
 }
+.close-icon{
+    display:none;
+}
